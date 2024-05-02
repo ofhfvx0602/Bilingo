@@ -1,38 +1,32 @@
 <h1 align=center>言語学習サイト</h1>
 
-![X clone](https://github.com/ofhfvx0602/sigma-app/assets/95751619/d0b3aeaa-ad1e-4c84-8dcf-2c0c5f995cb1)
+![bilingo12](https://github.com/ofhfvx0602/next14-Bilingo/assets/95751619/4f358727-7175-47cc-939e-a5259fb62d28)
 
 ## メイン機能
-- ⚛️ 技術スタック: React.js, MongoDB, Node.js, Express, Tailwind, React Query, JWT, Socket.io, postman, render
-- 🔐 JSONWEBTOKENS (JWT)による認証
-- 🔥 React Queryによるデータフェッチ、キャッシュなど
-- 👥 フォローするユーザーを提案することができる
-- ✍️ 投稿の作成
-- 🗑️ 投稿の削除
-- 💬 投稿にコメントすることができます。
-- ❤️ 投稿にいいね！することができます。
-- 🔒 自分のアカウントの投稿を削除することができます。
-- 📝 プロフィールを編集することができます
-- 🖼️ カバー画像とプロフィール画像の編集を行うことができます。
-- 📷 Cloudinaryを使用した画像アップロード
-- 🔔 通知を送る
-- 👥 ユーザーをフォローすることやフォローを解除することができます。
-- 🌐 デプロイメント
+- 技術スタック: Next.js 14, Drizzle ORM, PostgreSQL, Server Actions, Stripe, ShadcnUI, Tailwind, Clerk, NeonDB, Vercel
+- 言語を学ぶことができます。
+- 効果音
+- ハートシステム
+- ポイント/XPシステム
+- ハートが残っていないポップアップ
+- 終了確認ポップアップ
+- 前のレッスンで練習するとハートが回復します。
+- リーダーボード
+- ショップでハートを課金することができます。
+- 管理ダッシュボード
+- Vercelでデプロイメントしています。
+- レスポンシブ対応です。
+  
+
 
 ### Setup .env file
 ```bash
-MONGO_URI=...
-PORT=...
-JWT_SECRET=...
-NODE_ENV=...
-CLOUDINARY_CLOUD_NAME=...
-CLOUDINARY_API_KEY=...
-CLOUDINARY_API_SECRET=...
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=...
+CLERK_SECRET_KEY=...
+DATABASE_URL=...
+STRIPE_API_KEY=...
+NEXT_PUBLIC_APP_URL=...
+STRIPE_WEBHOOK_SECRET=...
+
 ```
-### Build the app
-```bash
-npm run build
-```
-### Build the app
-```bash
-npm start
+
